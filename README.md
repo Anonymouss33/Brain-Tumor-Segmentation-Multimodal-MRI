@@ -130,10 +130,10 @@ Multi-class softmax output
 The following images show ground truth vs predicted segmentation masks, demonstrating the model’s ability to accurately localize tumor regions and sub-regions.
 
 🔹 Ground Truth vs Predicted Segmentation
-![Segmentation Comparison](results/segmentation_output/segmentation_comparison.png)
+![Segmentation Comparison](results/segmentation_output/ground_truth_vs_prediction.png)
 
 🔹 Predicted Tumor Mask Overlay
-![Predicted Mask Overlay](results/segmentation_output/predicted_mask_overlay.png)
+![Predicted Mask Overlay](results/segmentation_output/combined_mask_comparison.png)
 
 
 These results show strong spatial alignment between predicted masks and ground truth annotations.
@@ -146,7 +146,7 @@ To address this, Grad-CAM (Gradient-weighted Class Activation Mapping) is used t
 Grad-CAM highlights which regions of the MRI image influenced the model’s decision, increasing trust and interpretability.
 
 🔹 Grad-CAM Heatmap & Overlay
-![Grad-CAM Overlay](results/gradcam/gradcam_overlay.png)
+![Grad-CAM Overlay](results/gradcam/gradcam_overlay_heatmap.png)
 
 🔹 Grad-CAM Animation (Slice-wise Attention)
 ![Grad-CAM GIF](results/gradcam/gradcam_animation.gif)
